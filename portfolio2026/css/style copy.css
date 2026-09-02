@@ -1,0 +1,76 @@
+.container{
+  position: absolute;
+  display: flex;
+  top:0;
+  right: 0;
+  width: 10vh;
+  height: 10vh;
+  z-index: 100;
+  text-transform: uppercase;
+  font-family: "Heebo";
+	font-weight: 400;
+}
+.menu-open{
+  color: #cfe6db;
+}
+.menu-open,
+.menu-close{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top:0;
+  right: 0;
+  padding: 2%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.nav-container {
+  position: fixed;
+  left:-100%;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.nav-container  .active{
+  left:0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: #cfe6db;
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.menu{
+  padding: 12vh 0 24vh;
+}
+.menu__item-link{
+  display: inline-block;
+  font-size:5vw;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  line-height: 100px;
+  text-decoration: none;
+  color: black;
+}
+.menu__item-img{
+  position: relative;
+  top: 10px;
+  padding: 0 20px;
+  z-index: 2;
+  pointer-events: none;
+  height: 10vh;
+  max-height: 600px;
+  opacity: 1;
+  transform: scale(0);
+}
+.menu__item:hover > .menu__item-img{
+  transform: scale(1);
+  transition: all 0.2s;
+}
+@media screen and (max-width:1000px) {
+  .menu__item-link{
+    font-size: 8vw;
+    line-height: 70px;
+  }
+}
