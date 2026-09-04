@@ -1,12 +1,13 @@
 FR👋 Aurore  Portfolio — Web Développeuse en APP 
+
 "Coding it's a creative and a passionate life."
 
 Web Développeuse et intégratrice d'APP junior en reconversion, 
-je conçois et intègre des siteset applications web. 
+je conçois et intègre des sites et applications web. 
 Je suis certifiée Google Cybersecurity Professional — 
 
 #Compétences techniques
-Intégration & développement front-end**
+Intégration & développement front-end
 HTML5
 CSS3
 JavaScript
