@@ -1,4 +1,4 @@
-FR👋 Aurore  Portfolio — Développeuse Web APP 
+FR👋 Aurore  Portfolio — Web Développeuse en APP 
 "Coding it's a creative and a passionate life."
 
 Web Développeuse et intégratrice d'APP junior en reconversion, 
